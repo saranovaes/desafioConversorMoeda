@@ -2,7 +2,7 @@ package br.com.conversor.principal;
 
 import br.com.conversor.models.Conversor;
 import br.com.conversor.models.CriaArquivoRequisicao;
-import br.com.conversor.models.Pares;
+import br.com.conversor.models.Moedas;
 import br.com.conversor.models.SalvaArquivoRequisicao;
 import com.google.gson.JsonSyntaxException;
 
@@ -47,7 +47,7 @@ public class Principal {
                     System.out.println("O programa espera um número entre 1 e 6");
                 }
 
-                Pares pares = new Pares();
+                Moedas pares = new Moedas();
                 pares.conversorOpcao(opcao);
                 System.out.println("Digite o valor que deseja converter, não utilize pontos, apenas vírgula");
                 double valor = leitura.nextDouble();

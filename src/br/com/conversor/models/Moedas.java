@@ -1,6 +1,6 @@
 package br.com.conversor.models;
 
-public class Pares {
+public class Moedas {
     private String moedaEntrada;
     private String moedaSaida;
 
